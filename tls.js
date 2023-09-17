@@ -10,7 +10,7 @@
  process.setMaxListeners(0);
  require("events").EventEmitter.defaultMaxListeners = 0;
 
- if (process.argv.length < 5){console.log(`Script By WarnaWarni\nUsage: node tls.js URL TIME REQ_PER_SEC THREADS\nExample: node tls.js https://tls.mrrage.xyz 500 8 1`); process.exit();}
+ if (process.argv.length < 5){console.log(`Script by Wulan Pedia-clawzzxd\nUsage: node tls.js URL TIME REQ_PER_SEC THREADS\nExample: node tls.js https://tls.mrrage.xyz 500 8 1`); process.exit();}
  
  const defaultCiphers = crypto.constants.defaultCoreCipherList.split(":");
  const ciphers = "GREASE:" + [
