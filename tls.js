@@ -1,4 +1,4 @@
- //Script By Warna Warni PLSS dont leak
+ //PLSS dont leak
  const net = require("net");
  const http2 = require("http2");
  const tls = require("tls");
